@@ -10,3 +10,23 @@
 .search-results .blog-post-item.type-product .blog-post-content .title {
     margin-bottom: 15px;
 }
+/* Site-wide wider layout override */
+@media (min-width: 1200px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1280px;
+    }
+}
+@media (min-width: 1400px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1460px;
+    }
+}
