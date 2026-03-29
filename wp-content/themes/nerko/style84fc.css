@@ -13,3 +13,10 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+/* Sticky navbar logo size override */
+#sticky-header.sticky-menu .logo img,
+.sticky-menu .logo img {
+  max-width: 48px !important;
+  width: 48px;
+  height: auto;
+}

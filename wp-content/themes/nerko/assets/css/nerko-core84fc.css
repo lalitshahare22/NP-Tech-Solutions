@@ -896,7 +896,7 @@ html.show-preloader body {
 }
 .nav-logo img,
 .logo img {
-  max-width: 120px;
+  max-width: 70px;
   -webkit-transition: all 0s ease-out 0s;
   -moz-transition: all 0s ease-out 0s;
   -ms-transition: all 0s ease-out 0s;
@@ -927,11 +927,11 @@ html.show-preloader body {
 }
 @media (max-width: 991.98px) {
   .sticky-menu.transparent-header {
-    padding: 20px 0;
+    padding: 10px 0;
   }
 }
 .sticky-menu .logo img {
-  max-width: 100px !important;
+  max-width: 56px !important;
 }
 @media (max-width: 991.98px) {
   .sticky-menu.tg-header__area .mobile-nav-toggler {
